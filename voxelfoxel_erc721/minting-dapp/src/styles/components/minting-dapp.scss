@@ -1,3 +1,5 @@
+@import 'https://fonts.googleapis.com/css2?family=VT323&display=swap';
+
 #minting-dapp {
   @apply flex flex-col gap-6;
   @apply mt-6 mx-auto;
@@ -27,6 +29,13 @@
 
         @apply border-t-2 border-popups-internal_border;
       }
+    }
+
+    #vf_subtitle {
+      font-size: 2.5em;
+      color: #181818;
+      font-family: 'VT323', monospace;
+      text-align: center;
     }
 
     .merkle-proof-manual-address {
@@ -133,6 +142,12 @@
     @apply text-popups-txt text-center;
     @apply bg-popups-bg;
     @apply shadow;
+
+    /*font-size: 1.5em;
+    color: #181818;
+    font-family: 'VT323', monospace;
+    text-align: center;
+    */
 
     &.cannot-mint .emoji {
       @apply block;

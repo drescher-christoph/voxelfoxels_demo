@@ -78,8 +78,8 @@ export default class MintWidget extends React.Component<Props, State> {
               <button className="decrease" disabled={this.props.loading} onClick={() => this.decrementMintAmount()}>-</button>
               <span className="mint-amount">{this.state.mintAmount}</span>
               <button className="increase" disabled={this.props.loading} onClick={() => this.incrementMintAmount()}>+</button>
-              <button className="primary" disabled={this.props.loading} onClick={() => this.mint()}>Mint</button>
             </div>
+            <button className="primary" disabled={this.props.loading} onClick={() => this.mint()}>Mint</button>
           </div>
           :
           <div className="cannot-mint">

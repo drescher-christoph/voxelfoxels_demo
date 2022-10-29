@@ -5,11 +5,11 @@ body {
   @apply font-sans;
 
   // Simple background with color gradient
-  @apply bg-gradient-to-b from-page-from_bg via-page-from_bg to-page-to_bg;
+  //@apply bg-gradient-to-b from-page-from_bg via-page-from_bg to-page-to_bg;
 
   // Fullscreen background image example
-  //background-image: url('../../images/background.jpg');
-  //@apply bg-center bg-cover bg-fixed;
+  background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)), url(https://i.postimg.cc/zBDZ9Ncm/Voxel-Foxel-Background-1.png);
+  @apply bg-center bg-cover bg-fixed;
 }
 
 a, a:link, a:visited {
@@ -78,7 +78,7 @@ main {
   button {
     @apply py-2 px-6;
 
-    @apply rounded-full;
+    //@apply rounded-full;
     
     @apply font-semibold;
     @apply text-btn-txt;
